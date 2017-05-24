@@ -23,12 +23,17 @@ deploy:
 	@lambda deploy
 	@echo deployed
 
+.PHONY: init
+init:
+	@./env/bin/python manage.py init ./config.template.yaml ./config.template.yaml
+	@echo initialized ./config.template.yaml
+
 .PHONY: auth
 auth: env
-	@./env/bin/python auth.py ./config.example.yaml ./config.yaml
+	@./env/bin/python manage.py auth ./config.template.yaml ./config.yaml
 	@echo created ./config.yaml
 
 .PHONY: clean
 clean:
-	-@rm -rf ./env ./config.yaml
+	-@rm -rf ./env ./config.yaml ./dist ./*.pyc
 	@echo cleaned
