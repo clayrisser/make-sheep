@@ -13,7 +13,6 @@ uninstall:
 
 .PHONY: reinstall
 reinstall: uninstall install
-	@cd examples/javascript && make reinstall
 
 .PHONY: format
 format:
