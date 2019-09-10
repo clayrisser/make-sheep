@@ -6,13 +6,11 @@ Please &#9733; this repo if you found it useful &#9733; &#9733; &#9733;
 
 
 ## Features
-<!------------------------------------------------------->
 
 * Virtual environment
 
 
 ## Dependencies
-<!------------------------------------------------------->
 
 * [Make](https://www.gnu.org/software/make/manual/make.html)
 * [Python](https://www.python.org/)
@@ -20,7 +18,6 @@ Please &#9733; this repo if you found it useful &#9733; &#9733; &#9733;
 
 
 ## Usage
-<!------------------------------------------------------->
 
 | Command       | Description                                                      |
 | ------------- | ---------------------------------------------------------------- |
@@ -32,15 +29,12 @@ Please &#9733; this repo if you found it useful &#9733; &#9733; &#9733;
 | `make deploy` | Deploy your lambda function to AWS                               |
 
 
-
 ## Support
-<!------------------------------------------------------->
 
 Submit an [issue](https://github.com/jamrizzi/make-sheep/issues/new)
 
 
 ## Buy Me Coffee
-<!------------------------------------------------------->
 
 A ridiculous amount of coffee was consumed in the process of building this project.
 
@@ -48,7 +42,6 @@ A ridiculous amount of coffee was consumed in the process of building this proje
 
 
 ## Contributing
-<!------------------------------------------------------->
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -58,7 +51,6 @@ A ridiculous amount of coffee was consumed in the process of building this proje
 
 
 ## License
-<!------------------------------------------------------->
 
 [MIT License](https://github.com/jamrizzi/make-sheep/blob/master/LICENSE)
 
@@ -66,13 +58,11 @@ A ridiculous amount of coffee was consumed in the process of building this proje
 
 
 ## Credits
-<!------------------------------------------------------->
 
 * [Jam Risser](https://jamrizzi.com) - Author
 
 
 ## Changelog
-<!------------------------------------------------------->
 
 0.0.1 (2017-05-22)
 * Initial release
