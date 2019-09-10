@@ -17,11 +17,9 @@ reinstall: uninstall install
 .PHONY: format
 format:
 	@env/bin/yapf -ir -vv \
-    $(CWD)/*.py \
-    $(CWD)/sphinx_markdown_builder
+    $(CWD)/*.py
 	@env/bin/unify -ir \
-    $(CWD)/*.py \
-    $(CWD)/sphinx_markdown_builder
+    $(CWD)/*.py
 
 env:
 	@virtualenv env
@@ -29,11 +27,11 @@ env:
 
 .PHONY: invoke
 invoke:
-	@lambda invoke -v
+	@env/bin/lambda invoke -v
 
 .PHONY: deploy
 deploy:
-	@lambda deploy
+	@env/bin/lambda deploy
 
 .PHONY: clean
 clean:
