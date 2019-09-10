@@ -19,14 +19,11 @@ Please &#9733; this repo if you found it useful &#9733; &#9733; &#9733;
 
 ## Usage
 
-| Command       | Description                                                      |
-| ------------- | ---------------------------------------------------------------- |
-| `make env`    | Install virtual environment                                      |
-| `make init`   | Initialize your project                                          |
-| `make auth`   | Authenticate your lambda function with AWS                       |
-| `make freeze` | Updates requirements.txt (used to know what pip packages to get) |
-| `make invoke` | Test your lambda function locally                                |
-| `make deploy` | Deploy your lambda function to AWS                               |
+| Command        | Description                                                      |
+| -------------  | ---------------------------------------------------------------- |
+| `make install` | Install virtual environment                                      |
+| `make start`   | Test your lambda function locally                                |
+| `make deploy`  | Deploy your lambda function to AWS                               |
 
 
 ## Support

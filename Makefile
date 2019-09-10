@@ -4,6 +4,10 @@ ARGS := ""
 .PHONY: all
 all: clean
 
+.PHONY: start
+start:
+	@env/bin/lambda invoke -v
+
 .PHONY: install
 install: env
 
@@ -24,10 +28,6 @@ format:
 env:
 	@virtualenv env
 	@env/bin/pip3 install -r ./requirements.txt
-
-.PHONY: invoke
-invoke:
-	@env/bin/lambda invoke -v
 
 .PHONY: deploy
 deploy:
