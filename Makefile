@@ -35,14 +35,6 @@ invoke:
 deploy:
 	@lambda deploy
 
-.PHONY: init
-init:
-	@env/bin/python manage.py init ./config.template.yaml ./config.template.yaml
-
-.PHONY: auth
-auth: env
-	@env/bin/python manage.py auth ./config.template.yaml ./config.yaml
-
 .PHONY: clean
 clean:
 	@git clean -fXd -e \!env -e \!env/**/*

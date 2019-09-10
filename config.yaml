@@ -1,9 +1,9 @@
-region: us-east-1
+region: us-west-2
 
-function_name: my_lambda_function
+function_name: Jam Risser
 handler: service.handler
 # role: lambda_basic_execution
-description: My first lambda function
+description: some descript
 
 # if access key and secret are left blank, boto will use the credentials
 # defined in the [default] section of ~/.aws/credentials.

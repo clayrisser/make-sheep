@@ -102,6 +102,3 @@ ENV/
 \#*\#
 .\#*
 *~
-
-# Application
-config.yaml
