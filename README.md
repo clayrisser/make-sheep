@@ -2,6 +2,8 @@
 
 A development environment for AWS lambda
 
+![](assets/make-sheep.png)
+
 Please &#9733; this repo if you found it useful &#9733; &#9733; &#9733;
 
 
